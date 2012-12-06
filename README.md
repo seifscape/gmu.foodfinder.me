@@ -7,3 +7,6 @@ Uses:
 - WTF Engine: https://github.com/soulwire/WTFEngine
 - Ruby on Rails
 - Twitter Bootstrap?
+
+@TODO:
+- Use GPS information from mobile app users to show them on a Google Map distance to the food spots and walking directions (if available and useful)
