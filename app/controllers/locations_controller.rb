@@ -5,6 +5,7 @@ class LocationsController < ApplicationController
 	#TODO:
 	# => will need to have an alias column so a place like pilot house can have a nickname
 	# => such as: "I'm drunk and I don't want any damn karaoke (Ike's reference)"
+	@current_time = Time.now
   end
 
   def random
