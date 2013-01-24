@@ -1,9 +1,23 @@
-<h2>This is what the fuck is open right now</h2>
-
-<% @open_locations.each do |location| %>
+<%- model_class = Location -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human.pluralize %></h1>
+</div>
+<table class="table table-striped">
+  <thead>
     <tr>
-       <td><%= location %></td>
+      <th><%= model_class.human_attribute_name(:name) %></th>
+      <th><%= "AKA" %></th>
+      <th><%= model_class.human_attribute_name(:building) %></th>
     </tr>
-<% end %>
-
-<p>The current fucking time is: <%= @current_time_as_string %></p>
+  </thead>
+  <tbody>
+    <% @open_locations.each do |location| %>
+      <tr>
+       	<!--<td> # link_to location.id, location_path(location) </td>-->
+        <td><%= location.name %></td>
+        <td><%= location.aka %></td>
+        <td><%= location.building %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

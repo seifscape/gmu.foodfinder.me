@@ -9,6 +9,10 @@ class LocationsController < ApplicationController
 
   end
 
+  def show
+    location = Location.find(params[:id])
+  end
+  
   def random
   	#this is where you can go to get a random location and food suggestion from one of the places 
   	# => that is currently open
