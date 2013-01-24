@@ -15,11 +15,11 @@ ActiveRecord::Schema.define(:version => 20130124030336) do
 
   create_table "locations", :force => true do |t|
     t.string   "name"
-    t.string   "AKA"
-    t.string   "warning"
+    t.string   "aka"
     t.string   "building"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.text     "business_hours"
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
   end
 
 end

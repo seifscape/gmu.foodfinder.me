@@ -2,12 +2,11 @@ class LocationsController < ApplicationController
   def index
 	#here we list all the locations that are open, by default
 
-	#TODO:
-	# => will need to have an alias column so a place like pilot house can have a nickname
-	# => such as: "I'm drunk and I don't want any damn karaoke (Ike's reference)"
 	@current_time = Time.now
+	@current_time_as_string = @current_time.strftime("%H:%M")
 
-	#@open_locations = Location.all.available?
+	@open_locations = Location.all.select {|location| location.available? @current_time}
+
   end
 
   def random
