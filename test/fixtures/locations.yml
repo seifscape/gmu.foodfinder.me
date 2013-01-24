@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  AKA: MyString
+  warning: MyString
+  building: MyString
+
+two:
+  name: MyString
+  AKA: MyString
+  warning: MyString
+  building: MyString
