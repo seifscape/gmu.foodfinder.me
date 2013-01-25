@@ -18,4 +18,7 @@ Uses:
 - Change table to bulleted list of sentences instead? (perhaps as only column in a Bootstrap table for responsive-ness?)
 - Google map of all dining locations (pin them on there if needed) that are currently open
 - Determine best UI layout for the different campuses (group locations by campus?)
+- Add exception notifications http://stackoverflow.com/questions/5481615/how-can-i-debug-a-application-error-in-my-heroku-hosted-ruby-on-rails-web-appl
+- Haul ass feature: if the app detects it's within whatever time window you set (say 15 minuts out) it puts a red border or something around the table row and says something like "If you want it, you're going to work for it. RUN, FOREST!"
+- Check if GMU Express General Store has Thursday hours (GMU site seems to indicate that it doesn't)
 
