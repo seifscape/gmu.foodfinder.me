@@ -3,7 +3,7 @@ class LocationsController < ApplicationController
 	#here we list all the locations that are open, by default
 
 	@current_time = Time.now
-	@current_time_as_string = @current_time.strftime("%H:%M")
+	@current_time_as_string = @current_time.strftime("%I:%M %p")
 
 	@open_locations = Location.all.select {|location| location.available? @current_time}
 
