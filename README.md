@@ -17,4 +17,5 @@ Uses:
 - Get Google Analytics working then deploy to Heroku
 - Change table to bulleted list of sentences instead? (perhaps as only column in a Bootstrap table for responsive-ness?)
 - Google map of all dining locations (pin them on there if needed) that are currently open
+- Determine best UI layout for the different campuses (group locations by campus?)
 

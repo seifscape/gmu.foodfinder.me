@@ -7,6 +7,7 @@
     <tr>
       <th><%= model_class.human_attribute_name(:name) %></th>
       <th><%= "AKA" %></th>
+      <th><%= model_class.human_attribute_name(:campus) %></th>
       <th><%= model_class.human_attribute_name(:building) %></th>
     </tr>
   </thead>
@@ -16,6 +17,7 @@
        	<!--<td> # link_to location.id, location_path(location) </td>-->
         <td><%= location.name %></td>
         <td><%= location.aka %></td>
+        <td><%= location.campus %></td>
         <td><%= location.building %></td>
       </tr>
     <% end %>

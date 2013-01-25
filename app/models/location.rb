@@ -1,5 +1,5 @@
 class Location < ActiveRecord::Base
-  attr_accessible :building, :warning
+  attr_accessible :campus, :building, :warning
   serialize :business_hours
 
   # def aka

@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(:version => 20130124030336) do
   create_table "locations", :force => true do |t|
     t.string   "name"
     t.string   "aka"
+    t.string   "campus"
     t.string   "building"
     t.text     "business_hours"
     t.datetime "created_at",     :null => false
