@@ -15,4 +15,5 @@ Uses:
 - Figure out if should use Recurring for holidays and such? https://github.com/ggoodale/recurring/blob/master/lib/schedule.rb
 - buy: http://whatthefuckshouldieatatgmu.com/
 - Get Google Analytics working then deploy to Heroku
+- Change table to bulleted list of sentences instead? (perhaps as only column in a Bootstrap table for responsive-ness?)
 
