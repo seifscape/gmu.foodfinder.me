@@ -1,6 +1,8 @@
 WhatTheFuckShouldIEatGMU::Application.routes.draw do
   get "locations/index"
 
+
+  match ':permalink', :controller => 'pages', :action => 'show', :as => 'my_page'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
