@@ -21,4 +21,8 @@ Uses:
 - Add exception notifications http://stackoverflow.com/questions/5481615/how-can-i-debug-a-application-error-in-my-heroku-hosted-ruby-on-rails-web-appl
 - Haul ass feature: if the app detects it's within whatever time window you set (say 15 minuts out) it puts a red border or something around the table row and says something like "If you want it, you're going to work for it. RUN, FOREST!"
 - Check if GMU Express General Store has Thursday hours (GMU site seems to indicate that it doesn't)
-
+- "Pilot house... until 4AM"
+- "This will open in n minutes"
+- Like a chat list, a list of what's not currently open
+-...Panda Express wasn't listed!!!! Fuckers.
+- Find a better way to handle the days that places are not open. Right now they may show up for exacty midnight on the days that they are really closed.
