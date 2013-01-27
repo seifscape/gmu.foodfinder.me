@@ -435,7 +435,6 @@ Location.create!({:name => "Einstein Bros. Bagels", :aka => "",
 
 #Begin Front Royal campus options
 
-
 Location.create!({:name => "SMSC Dining Commons", :aka => "", 
 	:campus => "SMSC Front Royal", :building => "", :business_hours => {"sunday" => ("10:30"..."13:30").to_a + ("17:00"..."19:00").to_a,
 												"monday" => ("07:00"..."08:00").to_a + ("11:30"..."13:00").to_a + ("17:00"..."19:00").to_a,

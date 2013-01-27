@@ -18,6 +18,8 @@ test:
   pool: 5
   timeout: 5000
 
+#I believe that Heroku disregards either this file or this section when it deploys 
+# in favor of its own database (postgres)
 production:
   adapter: sqlite3
   database: db/production.sqlite3

@@ -17,10 +17,8 @@ WhatTheFuckShouldIEatGMU::Application.configure do
   config.serve_static_assets = false
 
   # Compress JavaScripts and CSS
- 
 
-
-
+  # Heroku requires this to be false
   config.assets.initialize_on_precompile = false
   config.assets.compile = true
 

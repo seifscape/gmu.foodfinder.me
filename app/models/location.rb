@@ -2,15 +2,6 @@ class Location < ActiveRecord::Base
   attr_accessible :campus, :building, :warning
   serialize :business_hours
 
-  # def aka
-  #   if aka.nil?
-  #  		aka = ""
-  #  	else
-  #  		aka = "AKA #{aka}"
-  #  	end
-  #  	aka
-  # end
-
   def to_s
   #	name + aka
   	name
