@@ -9,6 +9,8 @@ Uses:
 - Unicorn blood, magic, etc.
 
 @TODO:
+- API
+- Mobile app(s)
 - Use GPS information from mobile app users to show them on a Google Map distance to the food spots and walking directions (if available and useful)
 - Figure out if should use Recurring for holidays and such: https://github.com/ggoodale/recurring/blob/master/lib/schedule.rb
 - Change table to bulleted list of sentences instead? (perhaps as only column in a Bootstrap table for responsive-ness?)
