@@ -6,12 +6,15 @@ gem 'rails', '3.2.10'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3', :group => [:development, :test]
+
 group :production do
   gem 'thin'
   gem 'pg'
 end
 
-gem 'pry'
+group :development do
+  gem 'pry'
+end
 
 gem 'google-analytics-rails'
 
