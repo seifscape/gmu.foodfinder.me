@@ -1,4 +1,9 @@
 WhatTheFuckShouldIEatGMU::Application.configure do
+
+  # replace this with your tracker code
+  GA.tracker = "UA-37993760-1"
+
+
   # Settings specified here will take precedence over those in config/application.rb
 
   # Code is not reloaded between requests

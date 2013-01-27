@@ -28,3 +28,4 @@ Uses:
 - Find a better way to handle the days that places are not open. Right now they may show up for exacty midnight on the days that they are really closed.
 - Off campus: "Where can i get pizza at this hour? NY Pizza Factory!"
 - Figure out how to deploy logo (svg version) without color for now
+- Re-install Favicons. Remember: There was some issue with pre-compiled (or not) assets when deploying to Heroku. Get to the bottom of this.
