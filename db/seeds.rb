@@ -6,6 +6,8 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
+#Begin Fairfax campus options
+
 Location.create!({:name => "Goldrush", :aka => "I've never been because Southside is upstairs", 
 	:campus => "Fairfax", :building => "Southside, Ground Floor", :business_hours => {"sunday" => ("00:00"..."00:01").to_a,
 												"monday" => ("09:00"..."21:00").to_a,
@@ -192,18 +194,18 @@ Location.create!({:name => "Einstein Bros. Bagels", :aka => "",
 												"tuesday" => ("08:00"..."20:00").to_a,
 												"wednesday" => ("08:00"..."20:00").to_a,
 												"thursday" => ("08:00"..."20:00").to_a,
-												"friday" => ("08:00"..."20:00").to_a,
+												"friday" => ("08:00"..."18:00").to_a,
 												"saturday" => ("00:00"..."00:01").to_a}},
 												:without_protection => true)
 
-Location.create!({:name => "Einstein Bros. Bagels", :aka => "", 
-	:campus => "Fairfax", :building => "University Hall", :business_hours => {"sunday" => ("00:00"..."00:01").to_a,
-												"monday" => ("08:00"..."20:00").to_a,
-												"tuesday" => ("08:00"..."20:00").to_a,
-												"wednesday" => ("08:00"..."20:00").to_a,
-												"thursday" => ("08:00"..."20:00").to_a,
-												"friday" => ("08:00"..."20:00").to_a,
-												"saturday" => ("00:00"..."00:01").to_a}},
+Location.create!({:name => "Panda Express", :aka => "", 
+	:campus => "Fairfax", :building => "University Hall", :business_hours => {"sunday" => ("11:00"..."17:00").to_a,
+												"monday" => ("10:00"..."21:00").to_a,
+												"tuesday" => ("10:00"..."21:00").to_a,
+												"wednesday" => ("10:00"..."21:00").to_a,
+												"thursday" => ("10:00"..."21:00").to_a,
+												"friday" => ("10:00"..."21:00").to_a,
+												"saturday" => ("11:00"..."17:00").to_a}},
 												:without_protection => true)
 
 Location.create!({:name => 'Pilot House', :aka => "I'm drunk, it's late, and I don't want any damn karaoke", 
@@ -277,8 +279,8 @@ Location.create!({:name => "Jazzman's Cafe", :aka => "",
 												"saturday" => ("00:00"..."00:01").to_a}},
 												:without_protection => true)
 
-Location.create!({:name => "The Hub", :aka => "", 
-	:campus => "Fairfax", :building => "Original Burger Company", :business_hours => {"sunday" => ("13:00"..."21:00").to_a,
+Location.create!({:name => "Original Burger Company", :aka => "", 
+	:campus => "Fairfax", :building => "The Hub", :business_hours => {"sunday" => ("13:00"..."21:00").to_a,
 												"monday" => ("11:00"..."22:00").to_a,
 												"tuesday" => ("11:00"..."22:00").to_a,
 												"wednesday" => ("11:00"..."22:00").to_a,
@@ -377,6 +379,28 @@ Location.create!({:name => "Einstein Bros. Bagels", :aka => "",
 												"saturday" => ("00:00"..."00:01").to_a}},
 												:without_protection => true)
 
+Location.create!({:name => "Boxwoods", :aka => "", 
+	:campus => "Fairfax", :building => "The Mason Inn", :business_hours => {"sunday" => ("06:30"..."10:30").to_a + ("11:00"..."14:00").to_a + ("17:00"..."21:00").to_a,
+												"monday" => ("06:30"..."10:30").to_a + ("11:00"..."14:00").to_a + ("17:00"..."21:00").to_a,
+												"tuesday" => ("06:30"..."10:30").to_a + ("11:00"..."14:00").to_a + ("17:00"..."21:00").to_a,
+												"wednesday" => ("06:30"..."10:30").to_a + ("11:00"..."14:00").to_a + ("17:00"..."21:00").to_a,
+												"thursday" => ("06:30"..."10:30").to_a + ("11:00"..."14:00").to_a + ("17:00"..."21:00").to_a,
+												"friday" => ("06:30"..."10:30").to_a + ("11:00"..."14:00").to_a + ("17:00"..."21:00").to_a,
+												"saturday" => ("06:30"..."10:30").to_a + ("11:00"..."14:00").to_a + ("17:00"..."21:00").to_a}},
+												:without_protection => true)
+
+Location.create!({:name => "The Well", :aka => "Say hello to TJ, the bartender!", 
+	:campus => "Fairfax", :building => "The Mason Inn", :business_hours => {"sunday" => ("00:00"..."02:00").to_a + ("15:00"..."23:00").to_a,
+												"monday" => ("16:00"..."23:00").to_a,
+												"tuesday" => ("16:00"..."23:00").to_a,
+												"wednesday" => ("16:00"..."23:00").to_a,
+												"thursday" => ("16:00"..."23:00").to_a,
+												"friday" => ("16:00".."23:59").to_a,
+												"saturday" => ("00:00"..."02:00").to_a + ("16:00".."23:59").to_a}},
+												:without_protection => true)
+
+#Begin Prince William campus options
+
 Location.create!({:name => "Randall's Cafe", :aka => "", 
 	:campus => "Prince William Campus", :building => "", :business_hours => {"sunday" => ("00:00"..."00:01").to_a,
 												"monday" => ("07:30"..."19:30").to_a,
@@ -397,6 +421,8 @@ Location.create!({:name => "Jazzman's Cafe", :aka => "",
 												"saturday" => ("00:00"..."00:01").to_a}},
 												:without_protection => true)
 
+#Begin Arlington campus options
+
 Location.create!({:name => "Einstein Bros. Bagels", :aka => "", 
 	:campus => "Arlington Campus", :building => "", :business_hours => {"sunday" => ("00:00"..."00:01").to_a,
 												"monday" => ("08:00"..."20:00").to_a,
@@ -406,6 +432,9 @@ Location.create!({:name => "Einstein Bros. Bagels", :aka => "",
 												"friday" => ("08:00"..."17:00").to_a,
 												"saturday" => ("00:00"..."00:01").to_a}},
 												:without_protection => true)
+
+#Begin Front Royal campus options
+
 
 Location.create!({:name => "SMSC Dining Commons", :aka => "", 
 	:campus => "SMSC Front Royal", :building => "", :business_hours => {"sunday" => ("10:30"..."13:30").to_a + ("17:00"..."19:00").to_a,

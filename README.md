@@ -26,3 +26,5 @@ Uses:
 - Like a chat list, a list of what's not currently open
 -...Panda Express wasn't listed!!!! Fuckers.
 - Find a better way to handle the days that places are not open. Right now they may show up for exacty midnight on the days that they are really closed.
+- Off campus: "Where can i get pizza at this hour? NY Pizza Factory!"
+- Figure out how to deploy logo (svg version) without color for now

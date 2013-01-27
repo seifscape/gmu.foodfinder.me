@@ -1,14 +1,14 @@
 <%- model_class = Location -%>
 <div class="page-header">
-  <h1><%=t '.title', :default => model_class.model_name.human.pluralize %></h1>
+  <h1><%=t '.title', :default => "Eateries" %></h1>
 </div>
 <table class="table table-striped">
   <thead>
     <tr>
       <th><%= model_class.human_attribute_name(:name) %></th>
-      <th><%= "AKA" %></th>
-      <th><%= model_class.human_attribute_name(:campus) %></th>
       <th><%= model_class.human_attribute_name(:building) %></th>
+      <th><%= model_class.human_attribute_name(:campus) %></th>
+      <th><%= "AKA" %></th>
     </tr>
   </thead>
   <tbody>
@@ -16,11 +16,11 @@
       <tr>
        	<!--<td> # link_to location.id, location_path(location) </td>-->
         <td><%= location.name %></td>
-        <td><%= location.aka %></td>
-        <td><%= location.campus %></td>
         <td><%= location.building %></td>
+        <td><%= location.campus %></td>
+        <td><%= location.aka %></td>
       </tr>
     <% end %>
   </tbody>
 </table>
-<p>It is currently <%= @current_time_as_string %> at GMU</p>
+<p>It is currently <b><%= @current_time_as_string %></b> at GMU</p>
