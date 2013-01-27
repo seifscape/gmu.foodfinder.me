@@ -28,3 +28,4 @@ Uses:
 - Re-install Favicons. Remember: There was some issue with pre-compiled (or not) assets when deploying to Heroku. Get to the bottom of this.
 - Implement the show view for a single location where we'll have more details about that location
 - Implement the entree and location suggestor (using the random method)
+- List of payment methods and price ranges (or price indicators) for each eatery. Credit for idea: Steven Wu
