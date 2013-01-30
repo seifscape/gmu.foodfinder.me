@@ -32,3 +32,4 @@ Uses:
 - List of caveats and insider information found out by students over the years including: The Well's last call at 1:30AM, location specific warnings like Southside not letting you in after x time, no fresh food after x time - pilot house wont make you a pizza after 3, for example. (Credit goes to Craig Haseler!)
 - F.o.o.o.o.o.d (Like Google's pagination, when it's needed because we have so many eateries)
 - Get list of eatery knowledge from thread: http://www.reddit.com/r/gmu/comments/17cjvq/website_that_tells_you_the_gmu_dining_locations/
+- Report button for users to submit issues, updates, feedback, death threats, etc.
