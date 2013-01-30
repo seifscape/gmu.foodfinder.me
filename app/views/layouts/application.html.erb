@@ -50,7 +50,7 @@
               <li><%= link_to "About Us", my_page_path('about') %></li>
             </ul>
           </div><!--/.nav-collapse -->
-          <p style="font-size: 11px; float:right; margin-top: -5px;"><i>More authoritative than the GMU Dining page</i></p>
+          <p style="font-size: 11px; float:right; margin-top: -5px; color: gray;"><i>More authoritative than the GMU Dining page</i></p>
         </div>
       </div>
     </div>
@@ -66,10 +66,9 @@
               <li><%= link_to "G. S. McNamara", "http://gsmcnamara.com/about"  %></li>
               <li>Aaron Hunter</li>
             </ul>
+            <p style="font-size: 14px; color: red;padding-top: 15px;overflow: hidden;"><i>Note: This is not yet accurate for delayed openings and holidays. Hit us up right now if something happened we don't know about: gmu.foodfinder.me@gmail.com or Twitter @gmufoodfinder.</i></p>
           </div><!--/.well -->
         </div><!--/span-->
-        <p style="font-size: 14px;float: right; color: red;"><i>Note: This is not yet accurate for delayed openings and holidays.</i></p>
-
         <div class="span9">
           <%= bootstrap_flash %>
           <%= yield %>
